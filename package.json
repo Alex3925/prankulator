@@ -1,15 +1,12 @@
 {
-  "name": "nodejs",
+  "name": "calculator-prank",
   "version": "1.0.0",
-  "description": "",
+  "description": "Calculator prank with multiple videos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "express": "^4.18.2"
   }
 }
